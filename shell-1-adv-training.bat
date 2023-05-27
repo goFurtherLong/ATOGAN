@@ -30,5 +30,5 @@ for /l %%i in (1,1,5) do python adv-training.py   --exp_name muse-adv   --exp_id
 @REM @REM name of the exp_id
 @REM set exp_id_prefix=%src_language%_%tgt_language%
 
-@REM for /l %%i in (1,1,5) do python adv-training.py   --exp_name vecmap-adv  --epoch_size 500000 --n_epochs 10   --exp_id %exp_id_prefix%_time%%i  --src_lang  %src_language%  --tgt_lang %tgt_language% --src_emb %emb_path_prefix%\\%src_language%.emb.txt --tgt_emb %emb_path_prefix%\\%tgt_language%.emb.txt
+@REM for /l %%i in (1,1,5) do python adv-training.py   --exp_name vecmap-adv  --epoch_size 500000 --n_epochs 10   --exp_id %exp_id_prefix%_time%%i --normalize_embeddings "renorm,center,renorm"  --src_lang  %src_language%  --tgt_lang %tgt_language% --src_emb %emb_path_prefix%\\%src_language%.emb.txt --tgt_emb %emb_path_prefix%\\%tgt_language%.emb.txt
 
