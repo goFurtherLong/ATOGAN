@@ -1,5 +1,5 @@
 @REM the path of word embbedings
-set emb_path_prefix=D:\\coding\\Xiong\\FMGAN\\data
+set emb_path_prefix=D:\\coding\\Xiong\\MUSE\\data
 
 @REM   hu
 set other_language=da
@@ -9,7 +9,7 @@ set src_language=en
 set tgt_language=%other_language%
 
 @REM there to reload the trained mapping function mapping.pth(x to y) and mapping2.pth(y to x)
-set reload_path_prefix=C:\Users\12425\Desktop\ATOGAN-github\dumped\muse-adv\%src_language%_%tgt_language%
+set reload_path_prefix=.\dumped\muse-adv\%src_language%_%tgt_language%
 
 
 @REM  source to target
@@ -36,7 +36,7 @@ for /l %%i in (1,1,5) do python refine.py  --exp_name muse-refine --dico_max_ran
 @REM set src_language=en
 @REM set tgt_language=%other_language%
 @REM @REM there to reload the trained mapping function mapping.pth(x to y) and mapping2.pth(y to x)
-@REM set reload_path_prefix=C:\Users\12425\Desktop\ATOGAN-github\dumped\vecmap-adv\%src_language%_%tgt_language%
+@REM set reload_path_prefix=.\dumped\vecmap-adv\%src_language%_%tgt_language%
 
 @REM @REM  source to target
 @REM set exp_id_prefix=%src_language%_%tgt_language%
