@@ -14,7 +14,7 @@ import torch
 from ..utils import get_nn_avg_dist
 
 
-DIC_EVAL_PATH = os.path.join('D:\\coding\\Xiong\\FMGAN\\data\\dictionaries')
+DIC_EVAL_PATH = os.path.join('D:\\coding\\Xiong\\MUSE\\data\\dictionaries')
 # DIC_EVAL_PATH = os.path.join('D:\\coding\\Xiong\\VECMAP\\data\\dictionaries')
 
 logger = getLogger()
