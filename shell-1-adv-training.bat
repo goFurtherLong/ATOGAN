@@ -1,5 +1,5 @@
 @REM the path of word embbedings (muse dataset or vecmap dataset)
-set emb_path_prefix=D:\\coding\\Xiong\\FMGAN\\data
+set emb_path_prefix=D:\\coding\\Xiong\\MUSE\\data
 
 
 @REM   hu
