@@ -11,9 +11,8 @@ import numpy as np
 from torch.autograd import Variable
 from torch import Tensor as torch_tensor
 
-from .wordsim import get_wordsim_scores, get_crosslingual_wordsim_scores, get_wordanalogy_scores
+
 from .word_translation import get_word_translation_accuracy
-from .sent_translation import load_europarl_data, get_sent_translation_accuracy
 from ..dico_builder import get_candidates, build_dictionary
 from src.utils import get_idf
 from .word_translation import get_nn_avg_dist
