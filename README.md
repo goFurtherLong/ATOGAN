@@ -26,7 +26,9 @@ To run our model, please read and run three .bat files in order.
  
  ## shell-3-local-mapping.bat
   Here we implement the Non-linear Local Mapping Strategy. Same modification should be done as in shell-1.
+  
   We also seperately do this strategy for two directions. And get the reuslts in in two dirrerent experiments.
+  
   The results will be stored in /dump/muse-localMapping/en-da and /dump/muse-localMapping/da-en, respectively.
  
   
